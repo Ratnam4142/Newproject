@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-07T21:52:07 IST" name="Default suite" finished-at="2024-03-07T21:53:08 IST" duration-ms="61614">
+    <groups>
+    </groups>
+    <test started-at="2024-03-07T21:52:07 IST" name="Default test" finished-at="2024-03-07T21:53:08 IST" duration-ms="61614">
+      <class name="web.testcases.Forget_password">
+        <test-method is-config="true" signature="openwindow()[pri:0, instance:web.testcases.Forget_password@79e2c065]" started-at="2024-03-07T21:52:07 IST" name="openwindow" finished-at="2024-03-07T21:52:19 IST" duration-ms="12369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openwindow -->
+        <test-method signature="Verify_printer()[pri:0, instance:web.testcases.Forget_password@79e2c065]" started-at="2024-03-07T21:52:19 IST" name="Verify_printer" finished-at="2024-03-07T21:52:19 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_printer -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:web.testcases.Forget_password@79e2c065]" started-at="2024-03-07T21:52:19 IST" name="screenshot" finished-at="2024-03-07T21:52:19 IST" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_printer status=SUCCESS method=Forget_password.Verify_printer()[pri:0, instance:web.testcases.Forget_password@79e2c065] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method signature="Verify_HomePageText()[pri:1, instance:web.testcases.Forget_password@79e2c065]" started-at="2024-03-07T21:52:19 IST" name="Verify_HomePageText" finished-at="2024-03-07T21:52:22 IST" duration-ms="3224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_HomePageText -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:web.testcases.Forget_password@79e2c065]" started-at="2024-03-07T21:52:22 IST" name="screenshot" finished-at="2024-03-07T21:52:22 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_HomePageText status=SUCCESS method=Forget_password.Verify_HomePageText()[pri:1, instance:web.testcases.Forget_password@79e2c065] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method signature="Verify_empty_values()[pri:2, instance:web.testcases.Forget_password@79e2c065]" started-at="2024-03-07T21:52:22 IST" name="Verify_empty_values" finished-at="2024-03-07T21:52:37 IST" duration-ms="14794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_empty_values -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:web.testcases.Forget_password@79e2c065]" started-at="2024-03-07T21:52:37 IST" name="screenshot" finished-at="2024-03-07T21:52:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_empty_values status=SUCCESS method=Forget_password.Verify_empty_values()[pri:2, instance:web.testcases.Forget_password@79e2c065] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method signature="verify_forgetScreen()[pri:3, instance:web.testcases.Forget_password@79e2c065]" started-at="2024-03-07T21:52:37 IST" name="verify_forgetScreen" finished-at="2024-03-07T21:52:46 IST" duration-ms="8680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_forgetScreen -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:web.testcases.Forget_password@79e2c065]" started-at="2024-03-07T21:52:46 IST" name="screenshot" finished-at="2024-03-07T21:52:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_forgetScreen status=SUCCESS method=Forget_password.verify_forgetScreen()[pri:3, instance:web.testcases.Forget_password@79e2c065] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method signature="verify_username()[pri:4, instance:web.testcases.Forget_password@79e2c065]" started-at="2024-03-07T21:52:46 IST" name="verify_username" finished-at="2024-03-07T21:53:03 IST" duration-ms="17050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_username -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:web.testcases.Forget_password@79e2c065]" started-at="2024-03-07T21:53:03 IST" name="screenshot" finished-at="2024-03-07T21:53:03 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_username status=SUCCESS method=Forget_password.verify_username()[pri:4, instance:web.testcases.Forget_password@79e2c065] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="closewindow()[pri:0, instance:web.testcases.Forget_password@79e2c065]" started-at="2024-03-07T21:53:03 IST" name="closewindow" finished-at="2024-03-07T21:53:08 IST" duration-ms="5358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- web.testcases.Forget_password -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

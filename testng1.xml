@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Rat">
+  <test thread-count="5" name="Ratnam">
+    <classes>
+      <class name="web.testcases.LoginFunctionality_withErrors"/>
+      <class name="web.testcases.LoginFunctionality_withErrors_Assert"/>
+      <class name="web.testcases.Forget_password"/>
+      <class name="web.testcases.Loginfunctionality_Testpage"/>
+    </classes>
+  </test> <!-- Ratnam -->
+</suite> <!-- Rat -->
