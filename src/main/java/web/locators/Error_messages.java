@@ -50,7 +50,7 @@ public class Error_messages extends baseclass {
 		WebElement element = driver.findElement(error3);
 		String text = element.getText();
 		System.out.println("text validate as...." + text);
-		Thread.sleep(3000);
+//		Thread.sleep(3000);
 		return text;
 
 	}
